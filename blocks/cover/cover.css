@@ -1,0 +1,15 @@
+.cover {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../images/__background.jpg);
+  color: white;
+  z-index: 1;
+  padding-bottom: 92px;
+  background-repeat: no-repeat;
+}
