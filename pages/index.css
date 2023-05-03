@@ -28,7 +28,7 @@
 @import url(../blocks/intro/__list/__item/__value/item__value.css);
 
 /* photo */
-@import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/photo-grid.css);
 @import url(../blocks/photo/__item/photo__item.css);
 
 /* places */

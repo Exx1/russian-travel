@@ -1,13 +1,14 @@
-.footer__link {
-  text-decoration: none;
+.link__item {
+  list-style: none;
+  padding-right: 18px;
 }
 
 @media screen and (max-width: 767px) {
-  .footer__link {
+  .link__item {
     padding-bottom: 32px;
   }
 
-  .footer__link:last-of-type {
+  .link__item:last-of-type {
     padding-bottom: 48px;
   }
 }
