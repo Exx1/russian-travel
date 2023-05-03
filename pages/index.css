@@ -30,7 +30,7 @@
 @import url(../blocks/list/__value/list__value.css);
 
 /* photo */
-@import url(../blocks/photo/photo-grid.css);
+@import url(../blocks/photo/photo.css);
 @import url(../blocks/photo/__item/photo__item.css);
 
 /* places */
@@ -56,7 +56,7 @@
 
 /* footer */
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__link/footer__link.css);
-@import url(../blocks/footer/__link/__item/link__item.css);
+@import url(../blocks/footer/__items/footer__items.css);
+@import url(../blocks/footer/__item/footer__item.css);
+@import url(../blocks/footer/__item/_link/footer__item_link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
