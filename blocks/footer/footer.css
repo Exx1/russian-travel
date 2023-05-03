@@ -6,3 +6,23 @@
   color: white;
   padding-bottom: 24px;
 }
+
+@media screen and (max-width: 1279px) {
+  .footer {
+    max-width: 100%;
+    padding: 0 48px 24px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    padding: 0 24px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}

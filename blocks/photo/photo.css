@@ -6,3 +6,34 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
 }
+
+@media screen and (max-width: 1279px) {
+  .photo {
+    max-width: 928px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 0 48px;
+    gap: 14px;
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .photo {
+    max-width: 720px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    padding: 0 24px;
+    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .photo {
+    max-width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    padding: 0 16px;
+    gap: 12px;
+  }
+}

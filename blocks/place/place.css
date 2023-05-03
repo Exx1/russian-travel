@@ -8,3 +8,16 @@
 .place:last-of-type {
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(4, min-content);
+    grid-row-gap: 32px;
+    padding-bottom: 50px;
+  }
+
+  .place:last-of-type {
+    padding-bottom: 0;
+  }
+}

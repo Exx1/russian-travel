@@ -5,3 +5,7 @@
   color: white;
   margin: 0;
 }
+
+.website__link:hover {
+  opacity: .8;
+}

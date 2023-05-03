@@ -6,3 +6,21 @@
   max-width: 984px;
   color: white;
 }
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    padding-left: 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    padding-left: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    padding: 0 16px;
+  }
+}

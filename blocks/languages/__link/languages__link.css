@@ -7,3 +7,10 @@
 .languages__link:last-of-type {
   padding-right: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .languages__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
