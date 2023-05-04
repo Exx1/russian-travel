@@ -4,19 +4,19 @@
   max-width: 984px;
   margin: auto;
   color: white;
-  padding-top: 92px;
+  padding: 92px 0 123px;
 }
 
 @media screen and (max-width: 1279px) {
   .places {
-    padding: 92px 48px 0;
+    padding: 92px 48px 92px;
     max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .places {
-    padding: 92px 24px 0;
+    padding: 92px 24px 90px;
     min-width: 720px;
   }
 }

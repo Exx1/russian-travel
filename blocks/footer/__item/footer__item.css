@@ -3,6 +3,10 @@
   padding-right: 18px;
 }
 
+.footer__item:last-of-type {
+  padding-right: 0;
+}
+
 .footer__item a {
   text-decoration: none;
   color: white;
