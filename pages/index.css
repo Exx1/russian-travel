@@ -29,9 +29,9 @@
 @import url(../blocks/intro/__item/intro__item.css);
 @import url(../blocks/intro/__value/intro__value.css);
 
-/* photo */
-@import url(../blocks/photo/photo.css);
-@import url(../blocks/photo/__item/photo__item.css);
+/* photo-grid */
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
 /* places */
 @import url(../blocks/places/places.css);
